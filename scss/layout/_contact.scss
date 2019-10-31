@@ -1,0 +1,45 @@
+.contact {
+    width: 100%;
+    margin: auto;
+    margin-top: 6em;
+    background-color: $primary;
+    position: relative;
+
+
+    &__wrapper {
+        width: 80%;
+        margin: auto;
+        background-color: #141c3a;
+        border-radius: 14px;
+        padding: 2em;
+        position: absolute;
+        margin-top: -6em;
+        left: 50%;
+        transform: translateX(-50%);
+        @include flex(space-around, center);
+    }
+
+    &__item {
+        margin: 1em;
+        @include font(1em, $primary-font);
+    }
+
+    &__title {
+        @include font(1.5em, $primary-font);
+        margin-bottom: 0.6em;
+    }
+
+    &__intro {
+        @include font(1.2em, $primary-font);
+        margin-bottom: 2em;
+    }
+
+    @include tablet {
+        &__wrapper {
+            width: 90%;
+            padding: 1em;
+            display: block;
+        }
+    }
+
+}

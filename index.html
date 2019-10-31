@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Moges Fekadu | Fullstack Web Developer</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="container container--header" id="header">
+      <nav class="navigation" id="home">
+        <a href="index.html" class="navigation__logo primary-color">MF</a>
+        <ul class="navigation__menu">
+          <li class="navigation__item">
+            <a href="#header" class="navigation__link activel" id="header-marker"> Home </a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#about" class="navigation__link" id="about-marker"
+              >About</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#services" class="navigation__link" id="services-marker"
+              >Services</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#portfolio" class="navigation__link" id="portfolio-marker"
+              >Portfolio</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a
+              href="#testimonials"
+              class="navigation__link"
+              id="testimonials-marker"
+              >Testimonials</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#contact" class="navigation__link" id="contact-marker"
+              >Contact</a
+            >
+          </li>
+        </ul>
+        <i class="navigation__burger fas fa-bars fa-2x"></i>
+      </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="container hero al-center">
+      <h1 class="hero__header hero__header--bg primary-text">
+        <span class="sc">Fullstack</span> Web Developer
+      </h1>
+      <h1 class="hero__header hero__header--sm fade-text">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+      </h1>
+      <div class="hero__img">
+        <img src="img/Profile/profile-pic.jpg" alt="" />
+      </div>
+      <a href="#about"><i class="hero__down fas fa-arrow-down fa-2x primary-color" id="down"></i></a>
+    </section>
+    <!--End of Hero-->
+
+    <!-- About -->
+    <section class="container about al-center secondary-text" id="about">
+      <h3 class="about__title">Hey, I'm Moges. Nice To Meet You.</h3>
+      <p class="about__para">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi laudantium
+        tempora minima, id, facilis voluptates odit amet tenetur veritatis
+        quidem debitis itaque non nostrum earum pariatur in reiciendis deleniti
+        ratione. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga
+        dolorem ad ipsa repellendus accusamus voluptas, officiis sint aspernatur
+        modi libero facere nesciunt facilis veniam, commodi minima! Consequatur
+        molestias unde repellendus!
+      </p>
+    </section>
+    <!-- end of about-->
+
+    <!-- Services -->
+    <section class="container services al-center" id="services">
+      <div
+        class="services__component services__component--br services__component--bb"
+      >
+        <i class="fas fa-code fa-3x services__icon"></i>
+        <h3 class="services__title--bg">Frontend Developer</h3>
+        <p class="services__para fade-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod omnis
+          ipsum fugiat consequuntur reiciendis dolores culpa iusto. Perferendis,
+          dolorum repudiandae.
+        </p>
+        <div class="services__ispeak">
+          <h4 class="services__title services__title--sm">Languages I Speak</h4>
+          <ul class="services__langueges fade-text">
+            <li class="services__list">HTML5,</li>
+            <li class="services__list">CSS3,</li>
+            <li class="services__list">Javascript,</li>
+            <li class="services__list">Bootstrap,</li>
+            <li class="services__list">Sass,</li>
+            <li class="services__list">Jquery,</li>
+            <li class="services__list">React</li>
+          </ul>
+        </div>
+      </div>
+      <div class="services__component services__component--bb">
+        <i class="fas fa-server fa-3x services__icon"></i>
+        <h3 class="services__title--bg">Backend Developer</h3>
+        <p class="services__para fade-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod omnis
+          ipsum fugiat consequuntur reiciendis dolores culpa iusto. Perferendis,
+          dolorum repudiandae.
+        </p>
+        <div class="services__ispeak">
+          <h4 class="services__title services__title--sm">Languages I Speak</h4>
+          <ul class="services__langueges fade-text">
+            <li class="services__list">NodeJS,</li>
+            <li class="services__list">Django,</li>
+            <li class="services__list">PHP</li>
+            <li class="services__list">MYSQL</li>
+          </ul>
+        </div>
+      </div>
+      <div class="services__component services__tools">
+        <i class="fas fa-tools fa-3x services__icon"></i>
+        <h4 class="services__title services__title--sm">Dev Tools</h4>
+        <ul class="services__langueges fade-text">
+          <li class="services__list services__list--tool">
+            Visual Studio Code,
+          </li>
+          <li class="services__list services__list--tool">Sublime Text,</li>
+          <li class="services__list services__list--tool">Bracket,</li>
+          <li class="services__list services__list--tool">Atom</li>
+        </ul>
+      </div>
+    </section>
+    <!--end of services-->
+
+    <section class="parallax"></section>
+
+    <!-- Portfolio -->
+    <section class="container portfolio al-center" id="portfolio">
+      <h3 class="portfolio__title">My Recent Work</h3>
+      <p class="portfolio__intro fade-text">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate,
+        sit!
+      </p>
+      <ul class="portfolio__lists">
+        <li class="portfolio__item">
+          <div class="portfolio__card">
+            <div class="portfolio__front">
+              <img
+                class="portfolio__img"
+                src="img/project/Screenshot from 2019-10-24 13-21-17.png"
+                alt=""
+              />
+            </div>
+            <div class="portfolio__back">
+              <h3 class="portfolio__name">Webo</h3>
+              <p class="portfolio__description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Pariatur, at.
+              </p>
+              <a href="#" class="btn btn--primary">Visit Site</a>
+            </div>
+          </div>
+        </li>
+
+        <li class="portfolio__item">
+          <div class="portfolio__card">
+            <div class="portfolio__front">
+              <img
+                class="portfolio__img"
+                src="img/project/Screenshot from 2019-10-24 13-28-29.png"
+                alt=""
+              />
+            </div>
+            <div class="portfolio__back">
+              <h3 class="portfolio__name">Webo</h3>
+              <p class="portfolio__description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Pariatur, at.
+              </p>
+              <a href="#" class="btn btn--primary">Visit Site</a>
+            </div>
+          </div>
+        </li>
+
+        <li class="portfolio__item">
+          <div class="portfolio__card">
+            <div class="portfolio__front">
+              <img
+                class="portfolio__img"
+                src="img/project/Screenshot from 2019-10-24 13-27-15.png"
+                alt=""
+              />
+            </div>
+            <div class="portfolio__back">
+              <h3 class="portfolio__name">Webo</h3>
+              <p class="portfolio__description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Pariatur, at.
+              </p>
+              <a href="#" class="btn btn--primary">Visit Site</a>
+            </div>
+          </div>
+        </li>
+
+        <li class="portfolio__item">
+          <div class="portfolio__card">
+            <div class="portfolio__front">
+              <img
+                class="portfolio__img"
+                src="img/project/Screenshot from 2019-10-24 13-27-39.png"
+                alt=""
+              />
+            </div>
+            <div class="portfolio__back">
+              <h3 class="portfolio__name">Webo</h3>
+              <p class="portfolio__description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Pariatur, at.
+              </p>
+              <a href="#" class="btn btn--primary">Visit Site</a>
+            </div>
+          </div>
+        </li>
+
+        <li class="portfolio__item">
+          <div class="portfolio__card">
+            <div class="portfolio__front">
+              <img
+                class="portfolio__img"
+                src="img/project/Screenshot from 2019-10-24 13-38-12.png"
+                alt=""
+              />
+            </div>
+            <div class="portfolio__back">
+              <h3 class="portfolio__name">Webo</h3>
+              <p class="portfolio__description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Pariatur, at.
+              </p>
+              <a href="#" class="btn btn--primary">Visit Site</a>
+            </div>
+          </div>
+        </li>
+
+        <li class="portfolio__item">
+          <div class="portfolio__card">
+            <div class="portfolio__front">
+              <img
+                class="portfolio__img"
+                src="img/project/Screenshot from 2019-10-24 13-28-09.png"
+                alt=""
+              />
+            </div>
+            <div class="portfolio__back">
+              <h3 class="portfolio__name">Webo</h3>
+              <p class="portfolio__description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Pariatur, at.
+              </p>
+              <a href="#" class="btn btn--primary">Visit Site</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <!--end of portfolio-->
+
+    <!-- Testimonial -->
+    <section class="testimonial container al-center" id="testimonials">
+      <h3 class="testimonial__title">Testimonial</h3>
+      <p class="testimonial__intro fade-text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, totam.
+      </p>
+      <div class="testimonial__client">
+        <div class="testimonial__profile">
+          <img
+            src="img/testimonial/craig-mckay-jmURdhtm7Ng-unsplash Cropped.jpg"
+            class="testimonial__img"
+            alt=""
+          />
+        </div>
+        <div class="testimonial__message">
+          <i class="fas fa-quote-left testimonial__quote"></i>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum amet
+          autem cumque, harum id nisi voluptatum repudiandae ex, odio quo quis
+          reiciendis explicabo cupiditate quod officia beatae nesciunt a veniam?
+          <i class="fas fa-quote-right testimonial__quote"></i>
+        </div>
+        <div class="testimonial__name">John Doe</div>
+        <div class="testimonial__position">Africom, CEO</div>
+      </div>
+      <div class="testimonial__navigator"></div>
+    </section>
+    <section class="container"></section>
+    <!--end of testimonial-->
+
+    <!-- <div class="parallax"></div> -->
+
+    <!-- Contact -->
+    <section class="contact secondary-text" id="contact">
+      <div class="contact__wrapper">
+        <div class="contact__left">
+          <h3 class="contact__title al-center">Wanna work with me?</h3>
+          <p class="contact__intro al-center">
+            Let's meet! I'll buy the coffee.
+          </p>
+        </div>
+
+        <ul class="contact__lists">
+          <li class="contact__item">
+            <i class="fas fa-map-marker-alt fa-2x"></i>
+            Addis Ababa, Ethiopia
+          </li>
+          <li class="contact__item">
+            <i class="fas fa-phone fa-2x"></i>
+            +251922510071
+          </li>
+          <li class="contact__item">
+            <i class="fas fa-mail-bulk fa-2x"></i>
+            mog4mf@gmial.com
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!--end of contact-->
+
+    <footer class="footer container al-center secondary-text">
+      <div class="footer__logo">MF</div>
+      <div class="footer__intro">Lorem ipsum dolor sit amet consectetur.</div>
+      <ul class="footer__social">
+        <li class="footer__item">
+          <i class="fab fa-facebook fa-3x footer__icon"></i>
+        </li>
+        <li class="footer__item">
+          <i class="fab fa-twitter fa-3x footer__icon"></i>
+        </li>
+        <li class="footer__item">
+          <i class="fab fa-github fa-3x footer__icon"></i>
+        </li>
+      </ul>
+      <hr />
+      Moges Fekadu. &copy; 2019
+    </footer>
+
+    <script src="js/jQueryv3.4.1.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

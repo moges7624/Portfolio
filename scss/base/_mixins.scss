@@ -1,0 +1,37 @@
+@mixin tablet {
+    @media (max-width : 767px){@content}
+};
+
+// justify-content, align-items
+@mixin flex($arg...){
+    display: flex;
+    @if length($arg) == 2 {
+        justify-content: nth($arg, 1);
+        align-items: nth($arg, 2);
+    }
+
+    @if length($arg) == 3 {
+        justify-content: nth($arg, 1);
+        align-items: nth($arg, 2);
+        flex-direction: nth($arg, 3);
+    }
+};
+
+// size, family, weight
+@mixin font($arg...){
+    @if length($arg) == 1 {
+        font-size: nth($arg, 1);
+    }
+
+    @if length($arg) == 2 {
+        font-size: nth($arg, 1);
+        font-family: nth($arg, 2);
+    }
+    
+    @if length($arg) == 3 {
+        font-size: nth($arg, 1);
+        font-family: nth($arg, 2);
+        font-weight: nth($arg, 3);
+    }
+    
+}

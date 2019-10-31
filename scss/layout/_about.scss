@@ -1,0 +1,16 @@
+.about {
+    background-color: $primary;
+    padding: 3em 25%;
+    line-height: 1.2;
+    padding-bottom: 8em;
+    @include font(1.2em, $primary-font, 300);
+
+    &__title {
+        margin-bottom: 2em;
+        @include font(1.3em, $primary-font, 600);
+    }
+
+    @include tablet {
+        padding: 2em 5% 8em 5%;
+    }
+}

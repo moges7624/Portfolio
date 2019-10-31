@@ -1,0 +1,79 @@
+.testimonial {
+    width: 80%;
+    margin: 8em auto;
+    margin-bottom: 16em;
+
+    &__title {
+        @include font(1.5em, $primary-font);
+        margin-bottom: 0.6em;
+    }
+
+    &__intro {
+        @include font(1.2em, $primary-font);
+        margin-bottom: 3em;
+    }
+
+    &__client {
+        width: 100%;
+        @include flex(center, center, column);
+    }
+
+    &__profile {
+        max-width: 150px;
+        max-height: 150px;
+        margin-bottom: 1.5em;
+    }
+
+    &__img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+
+    &__message {
+        width: 50%;
+        @include font(1.2em, sans-serif);
+        line-height: 1.4;
+        margin-bottom: 1.5em;
+        color: $primary-text;
+    }
+
+    &__quote {
+        color: $primary;
+    }
+
+    &__name {
+        @include font(1.2em, $primary-font, 600);
+        margin-bottom: 0.4em;
+    }
+
+    &__position {
+        @include font(0.9em, $primary-font);
+    }
+
+    &__navigator {
+        width: 15px;
+        height: 15px;
+        background-color: $primary;
+        border-radius: 50%;
+        margin: auto;
+        cursor: pointer;
+        margin-top: 2em;
+        transition: all 1s ease;
+        border: 1px solid #fff;
+
+        &:hover {
+            background-color: #fff;
+            border-color: $primary;
+        }
+    }
+
+    @include tablet {
+        width: 98%;
+
+        &__message {
+            width: 90%;
+        }
+    }
+
+}

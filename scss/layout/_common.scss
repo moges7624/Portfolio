@@ -1,0 +1,53 @@
+.sc {
+    color: $secondary-color;
+}
+
+.btn {
+    border: 1px solid #fff;
+    color: #fff;
+    margin-top: 2em;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    font-size: 1.4em;
+    transition: all 0.3s ease;
+}
+
+.btn--primary {
+    &:hover {
+        background-color: #fff;
+        color: $primary;
+    }
+}
+
+.parallax {
+    margin-top: 2em;
+    height: 200px;
+    width: 100%;
+    background-image: url(./../img/parallax/geometric-1732847_1280.jpg);
+    background-attachment: fixed;
+    content: "";
+}
+
+.primary-color {
+    color: $primary;
+}
+
+.primary-text {
+    color: $primary-text;
+}
+
+.secondary-text {
+    color: $secondary-text;
+}
+
+.fade-text {
+    color: $fade-text;
+}
+
+.al-center {
+    text-align: center;
+}
+
+.activel {
+    color: $primary !important;
+}

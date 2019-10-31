@@ -1,0 +1,44 @@
+.footer {
+    width: 100%;
+    margin: auto;
+    background: $primary;
+    padding-top: 14em;
+    padding-bottom: 0.3em;
+    z-index: 3;
+
+    &__logo {
+        @include font(2em, $primary-font, 700);
+        letter-spacing: 0.1em;
+        margin-bottom: 0.3em;
+    }
+
+    &__intro {
+        @include font(1.2em, $primary-font);
+        margin-bottom: 1.3em;
+    }
+
+    &__social {
+        @include flex(center, center);
+        width: 100%;
+    }
+
+    &__icon {
+        color: #fff;
+        margin: 0.3em;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        border-radius: 50%;
+        border: 1px solid rgb(161, 167, 199);
+        overflow: hidden;
+
+        &:hover {
+            color: $primary;
+            background: #fff;
+        }
+    }
+
+    hr {
+        border-color: rgba($color: $primary, $alpha: 1.0);
+        margin: 1em 0;
+    }
+}
